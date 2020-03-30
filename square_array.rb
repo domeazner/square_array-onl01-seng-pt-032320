@@ -6,7 +6,7 @@
 #end
 
 def square_array(array)
-  squared = []
-  array.each { |element| squared << element ** 2 }
-  squared
+  numbers = []
+  array.each { |element| numbers << element ** 2 }
+  numbers
 end
